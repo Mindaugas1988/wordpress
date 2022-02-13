@@ -1,2 +1,2 @@
 # wordpress
-Wordpresso Theme Develop with Create own Widget 
+Wordpress Theme Develop with create own Widget 
