@@ -1,0 +1,350 @@
+*{margin: 0; padding: 0;color:#ffffff;}
+a{text-decoration: none;}
+.clear{clear:both; visibility: hidden}
+@font-face {
+  font-family: Myriad;
+	src:url(../fonts/MyriadPro-Regular.otf);
+}
+html,body,#bg{min-width: 100%; min-height:100%;}
+i{vertical-align: middle;}
+body{
+  background-color: #2C7077;
+}
+.w3-container{margin: 20px auto 20px auto; width: 90%; min-height: 100%; position: relative; z-index: 70;}
+#bg{
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+#logo img {vertical-align:middle;}
+
+#logo span {font-family: Myriad; font-size: 30px; margin-left: 10px;}
+
+.w3-navbar,footer{margin:20px auto 0 auto;
+width:100%;
+padding: 10px;
+-webkit-border-radius:10px; /* For Safari 5.1 to 6.0 */
+-o-border-radius:10px; /* For Opera 11.1 to 12.0 */
+-moz-border-radius:10px; /* For Firefox 3.6 to 15 */
+ border-radius:10px; /* Standard syntax (must be last) */
+background-color:#ffffff;
+background:rgba(237, 239, 240, 0.3);}
+
+footer span{font-size: 11px; font-family: Verdana;}
+.w3-navbar li a{padding:10px 20px 10px 20px;
+  font-size:20px;
+  font-family: Verdana;
+  text-decoration:none;
+  color:#ffffff;}
+
+  .w3-navbar li a:hover{
+    -webkit-border-radius:10px; /* For Safari 5.1 to 6.0 */
+    -o-border-radius:10px; /* For Opera 11.1 to 12.0 */
+    -moz-border-radius:10px; /* For Firefox 3.6 to 15 */
+     border-radius:10px; /* Standard syntax (must be last) */
+    background-color:#ffffff;
+    background:rgba(237, 239, 240, 0.5);
+    color:#ffffff;
+  }
+
+  .w3-row{
+    margin: 20px 0 0 0;
+  }
+
+  .w3-row #content .new, .w3-row #side div,.w3-row #content #recent_new,.w3-row #content #post, #not_found{
+    padding: 20px;
+    margin: 0 0 20px 0;
+    -webkit-border-radius:10px; /* For Safari 5.1 to 6.0 */
+    -o-border-radius:10px; /* For Opera 11.1 to 12.0 */
+    -moz-border-radius:10px; /* For Firefox 3.6 to 15 */
+     border-radius:10px; /* Standard syntax (must be last) */
+    background-color:#ffffff;
+    background:rgba(237, 239, 240, 0.3);
+  }
+  #not_found h2{
+    text-align: center;
+    font-family: Myriad;
+  }
+
+  .w3-row #side{
+    float: right;
+  }
+
+  .w3-row #side #srch{
+    padding: 0;
+    position: relative;
+    height: 40px;
+  }
+
+  .w3-row #side #srch form #searchsubmit{
+    right: 0;
+    -webkit-border-top-right-radius:10px; /* For Safari 5.1 to 6.0 */
+    -o-border-top-right-radius:10px; /* For Safari 5.1 to 6.0 */
+    -moz-border-top-right-radius:10px; /* For Safari 5.1 to 6.0 */
+    border-top-right-radius:10px; /* For Safari 5.1 to 6.0 */
+    -webkit-border-bottom-right-radius:10px; /* For Safari 5.1 to 6.0 */
+    -o-border-bottom-right-radius:10px; /* For Safari 5.1 to 6.0 */
+    -moz-border-bottom-right-radius:10px; /* For Safari 5.1 to 6.0 */
+    border-bottom-right-radius:10px; /* For Safari 5.1 to 6.0 */
+    position: absolute;
+    background-image: url('../images/search_logo.png');
+    width: 44px;
+    height: 40px;
+  }
+
+  .w3-row #side #srch form input[type=search]{
+    background-color:#ffffff;
+    background:rgba(237, 239, 240, 0);
+    border: none;
+    width: 200px;
+    height: 20px;
+    margin: 10px;
+    font-size: 11px;
+    font-family: Verdana;
+  }
+#srch form input[type=search]{
+  color:#FFFFFF;
+}
+
+
+  .w3-row #content #recent_new {
+    position: relative;
+  }
+
+  .w3-row #content #recent_new #overall{
+    position: absolute;
+    z-index: 3;
+    bottom: 13px;
+    right: 10px;
+    left: 10px;
+    padding: 10px;
+    background: rgba(43, 123, 179, 0.3);
+    font-size: 12px;
+    font-family: Verdana;
+    -webkit-border-bottom-left-radius:10px; /* For Safari 5.1 to 6.0 */
+    -o-border-bottom-left-radius:10px; /* For Opera 11.1 to 12.0 */
+    -moz-border-bottom-left-radius:10px; /* For Firefox 3.6 to 15 */
+     border-bottom-left-radius:10px; /* Standard syntax (must be last) */
+     -webkit-border-bottom-right-radius:10px; /* For Safari 5.1 to 6.0 */
+     -o-border-bottom-right-radius:10px; /* For Opera 11.1 to 12.0 */
+     -moz-border-bottom-right-radius:10px; /* For Firefox 3.6 to 15 */
+      border-bottom-right-radius:10px; /* Standard syntax (must be last) */
+  }
+
+  .w3-row #content #recent_new #overall a{
+    margin: 0 0 0 10px;
+    color: #bcfff5;
+    text-decoration: underline;
+  }
+
+  .w3-row #content #recent_new img{
+    -webkit-border-radius:10px;
+    -o-border-radius:10px;
+    -moz-border-radius:10px;
+     border-radius:10px;
+     width: 100%;
+     height: auto;
+     border: none;
+  }
+
+   .w3-row #content .new,.w3-row #content #post {
+     min-height: 200px;
+   }
+
+  .w3-row #content .new img{
+    -webkit-border-radius:10px; /* For Safari 5.1 to 6.0 */
+    -o-border-radius:10px; /* For Opera 11.1 to 12.0 */
+    -moz-border-radius:10px; /* For Firefox 3.6 to 15 */
+     border-radius:10px; /* Standard syntax (must be last) */
+     width: 164px;
+     height: 164px;
+     object-fit: cover;
+     margin: 0 20px 20px 0;
+     float: left;
+  }
+
+  .w3-row #content #post .cover{
+    -webkit-border-radius:10px; /* For Safari 5.1 to 6.0 */
+    -o-border-radius:10px; /* For Opera 11.1 to 12.0 */
+    -moz-border-radius:10px; /* For Firefox 3.6 to 15 */
+     border-radius:10px; /* Standard syntax (must be last) */
+     width: 100%;
+     height: auto;
+     margin:0;
+  }
+
+  .w3-row #content .new h6,.w3-row #content #post h6{
+    font-size: 24px !important;
+    font-weight: bold !important;
+    font-family: Verdana !important;
+    margin: 10px 0 10px 0!important;
+  }
+  .w3-row #content .new p,.w3-row #content #post p{
+    font-size: 12px;
+    font-family: Verdana;
+    margin: 10px 0 10px 0;
+    color: #bcfff5;
+    line-height: 200%;
+  }
+  .w3-row #content .new .meta,.w3-row #content #post .meta{
+    padding: 5px;
+    margin: 110px 0 0 0px;
+    -webkit-border-radius:10px; /* For Safari 5.1 to 6.0 */
+    -o-border-radius:10px; /* For Opera 11.1 to 12.0 */
+    -moz-border-radius:10px; /* For Firefox 3.6 to 15 */
+     border-radius:10px; /* Standard syntax (must be last) */
+    background-color:#ffffff;
+    background:rgba(237, 239, 240, 0.3);
+    height: 20px;
+
+  }
+
+  .w3-row #content .new .small,.w3-row #content #post .small,
+  .w3-row #content .new .meta a,.w3-row #content #post .meta a{
+  font-size: 10px;
+  font-family: Verdana;
+  margin: 0 20px 0 0;
+  float: right;
+  }
+
+
+
+  .w3-row #side h6{
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: bold;
+    display: inline;
+    margin-left: 5px;
+  }
+
+  .w3-row  #side img{
+    vertical-align: middle;
+      background:rgba(237, 239, 240, 0);
+  }
+
+  .w3-row  #side ul{
+    margin: 20px 0 0 0;
+    padding: 0;
+  }
+
+  #recentcomments li a{
+    font-size: 11px;
+    font-family: Verdana;
+  }
+
+  .w3-row  #side ul li:first-of-type{border-top:none;}
+  .w3-row  #side ul li:last-of-type{border-bottom:none;}
+
+    .w3-row  #side ul li{
+      padding: 5px 0 5px 0;
+      margin: 0;
+      border-top: solid 1px #7db2b3;
+    }
+
+
+    #recent_reviews li img{
+      width: 48px;
+      float: left;
+      height: 48px;
+      vertical-align: top;
+      object-fit: cover;
+      margin: 5px;
+    }
+
+    #recent_reviews  li a{
+      font-size: 14px;
+      font-family: Verdana;
+    }
+    #recent_reviews ul li span{
+      font-size: 12px;
+      font-family: Verdana;
+    }
+    .w3-container .w3-row #content .w3-pagination{
+      margin-bottom: 20px;
+    }
+
+    #comments .w3-pagination{margin-top: 20px;}
+    #comments .w3-pagination li a{margin-right:0!important;}
+
+   .w3-container .w3-row #content .w3-pagination li a{
+     background:rgba(237, 239, 240, 0.3);
+     color: #ffffff;
+     font-family: Verdana;
+     font-size: 12px;
+   }
+    .w3-container .w3-row #content .w3-pagination li a:hover{
+      background: rgba(43, 123, 179, 0.3);
+    }
+
+    .w3-container .w3-row #content #post form{
+
+    }
+    .w3-container .w3-row #content #post  input[type=text],.w3-container .w3-row #content #post form textarea{
+     background: rgba(43, 123, 179,0.9);
+     border: none;
+     padding: 10px;
+     width: 250px;
+     margin: 10px 0 0 0;
+     -webkit-border-radius:10px; /* For Safari 5.1 to 6.0 */
+     -o-border-radius:10px; /* For Opera 11.1 to 12.0 */
+     -moz-border-radius:10px; /* For Firefox 3.6 to 15 */
+      border-radius:10px; /* Standard syntax (must be last) */
+      font-size: 12px;
+      font-family: Verdana;
+    }
+.w3-container .w3-row #content #post  textarea{
+  resize: vertical;
+  height: 150px;
+}
+.w3-container .w3-row #content #post  input[type=submit]{
+  border: none;
+  padding: 10px;
+  margin: 10px 0 0 0;
+  background-color: #FF9900;
+  -webkit-border-radius:10px; /* For Safari 5.1 to 6.0 */
+  -o-border-radius:10px; /* For Opera 11.1 to 12.0 */
+  -moz-border-radius:10px; /* For Firefox 3.6 to 15 */
+   border-radius:10px; /* Standard syntax (must be last) */
+   font-size: 12px;
+   font-family: Verdana;
+  }
+  .comments-title{
+    font-size: 16px;
+    font-family: Verdana;
+    font-weight: bold;
+    margin:10px 0 10px 0;
+  }
+
+  .comment-list{margin: 10px;}
+  .comment-list .fn,.comment-list .says{
+    color: #bcfff5;
+    font-family: Verdana;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .comment-list .says{
+    display: none;
+  }
+
+  .comment-list .avatar{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    display: block;
+    margin: 0 0 10px 0;
+  }
+
+  .comment-list p{
+    color:#ffffff !important;
+    margin: 20px 0 0 0!important;
+  }
+  .comment-meta{
+    margin: 20px 0 0 0;
+    display: block;
+  }
+  .comment-edit-link{display: none;}
+  .widget_wrapper{
+    font-family: Myriad;
+  }
